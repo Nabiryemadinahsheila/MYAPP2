@@ -1,0 +1,152 @@
+*{box-sizing: border-box ;}
+#main-basket{
+    width: 100%;
+    height: auto;
+    background-image: url(IMAGES/contact.jpg);
+    background-size: cover;
+}
+body{background-color: beige;}
+.nav-menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    border: 2px;
+    
+}
+.nav-menu ul li a:hover{color: purple;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+button{
+    padding: 12px;
+    background-color: #e75480;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button:hover{background-color: #d0436a;}
+input,textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+textarea{resize:none;
+    height: 120px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    margin: auto;
+}
+.contact-info{
+    margin-top: 20px;
+    text-align: center;
+}
+.social-media a{
+    display: flex;
+    margin: 0 10px;
+    font-size: 24px;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social-media a i{
+    width: 30px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .social-media a {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media (max-width: 768px) {
+    .social-media a i {
+        width: auto;
+    }
+}
+@media (max-width: 768px) {
+    footer {
+        padding: 20px;
+    }
+}
+@media (max-width: 768px) {
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    input, textarea {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .contact-info {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .nav-menu ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .nav-menu ul {
+        gap: 10px;
+        border: 2px;
+    }
+}
+@media (max-width: 768px) {
+    .nav-menu ul li a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .nav-menu ul {
+        gap: 10px;
+        border: 2px;
+    }
+}
+@media (max-width: 768px) {
+    .nav-menu ul li a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .nav-menu ul {
+        gap: 10px;
+        border: 2px;
+    }
+}
